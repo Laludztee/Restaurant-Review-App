@@ -1,0 +1,18 @@
+{
+    "name": "Restaurant Review",
+    "short_name": "Restaurant",
+    "description": "A responsive, accessible, offline-first restaurant review web app",
+    "start_url": "/Resturant-Review-App/",
+    "scope": "/Resturant-Review-App/",
+    "background_color": "#3397db",
+    "theme_color": "#252831",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "dir": "ltr",
+    "lang": "en-US",
+    "serviceworker": {
+        "src": "/Resturant-Review-App/sw.js",
+        "scope": "/Resturant-Review-App/",
+        "update_via_cache": "none"
+    },
+}
