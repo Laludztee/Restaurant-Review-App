@@ -9,7 +9,7 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     //const port = 8000 // Change this to your server port
-    return `https://Laludztee.github.io/Resturant-Review-App/data/restaurants.json`;
+    return `https://Laludztee.github.io/Restaurant-Review-App/data/restaurants.json`;
   }
 
   /**
