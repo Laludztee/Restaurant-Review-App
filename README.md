@@ -25,8 +25,15 @@ Works offline and cache pages that have been visited
 To run the application:
 
 Download the GitHub zip file or clone the repository onto your local workstation:
-1. [zip file](https://github.com/Laludztee/Resturant-Review-App.zip)
-2. [git clone](https://github.com/Laludztee/Resturant-Review-App.git)
+ [zip file](https://github.com/Laludztee/Resturant-Review-App.zip)
+ 
+ [git clone](https://github.com/Laludztee/Resturant-Review-App.git)
+
+1. Your computer should have python installed. To check, run python -V on your terminal
+2. It your python version is 2.X, run the following on a terminal to start the server python -m SimpleHTTPServer 8000
+3. If your python version is 3.X, run the folliwng on a terminal to start the server python3 -m http.server 8000
+4. Visit Python's Website to download python if you don't have it installed
+5. Launch the application from localhost:8000
 
 Open a browser window and navigate to the index.html file in your application's directory.
 
