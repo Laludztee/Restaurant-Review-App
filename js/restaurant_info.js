@@ -207,7 +207,7 @@ getParameterByName = (name, url) => {
 
 if('serviceWorker' in navigator){
   window.addEventListener("load", () => {
-  navigator.serviceWorker.register('/sw.js')
+  navigator.serviceWorker.register('Restaurant-Review-App/sw.js')
   .then((res) => {
     console.log(res);
   console.log( "Registration successful");
@@ -217,8 +217,4 @@ if('serviceWorker' in navigator){
     console.log("Registration not successful");
   })
    });
-}
-else
-{
-    console.log( "Your browser is not compatible with Service Worker!");
 }
