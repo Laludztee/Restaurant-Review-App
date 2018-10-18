@@ -21,13 +21,17 @@ self.addEventListener('install', function (event) {
                 '/Restaurant-Review-App/img/8.jpg',
                 '/Restaurant-Review-App/img/9.jpg',
                 '/Restaurant-Review-App/img/10.jpg',
+                '/Restaurant-Review-App/js/dbhelper.js',
+                '/Restaurant-Review-App/js/main.js',
+                '/Restaurant-Review-App/js/restaurant_info.js',
+                '/Restaurant-Review-App/css/styles.css',
                 '/Restaurant-Review-App/data/restaurants.json',
                 '/Restaurant-Review-App/manifest.json',
                 '/Restaurant-Review-App/index.html',
                 '/Restaurant-Review-App/restaurant.html',
                 'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js',
                 'https://unpkg.com/leaflet@1.3.1/dist/leaflet.css',
-                'https://Laludztee.github.io/Resturant-Review-App/data/restaurants.json'
+                
             ]);
         }).then(console.log('Cache is sucessful!'))
     );
