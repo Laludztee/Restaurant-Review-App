@@ -215,7 +215,7 @@ addMarkersToMap = (restaurants = self.restaurants) => {
 } */
 if('serviceWorker' in navigator){
   window.addEventListener("load", () => {
-  navigator.serviceWorker.register('/sw.js')
+  navigator.serviceWorker.register('Restaurant-Review-App/sw.js')
   .then((res) => {
     console.log(res);
   console.log( "Registration successful");
@@ -226,14 +226,8 @@ if('serviceWorker' in navigator){
   })
    });
 }
-else
-{
-    console.log( "Your browser is not compatible with Service Worker!");
-}
-
 
 window.addEventListener('beforeinstallprompt', (e) => {
   // showing the prompt
   e.prompt();
 });
-
