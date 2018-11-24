@@ -24,7 +24,7 @@ Works offline and cache pages that have been visited
 
 To run the application:
 
-Clone the repository onto your local workstation: [git clone](https://github.com/Laludztee/Restaurant-Review-App.git)
+Clone the repository onto your local workstation: [git clone](https://github.com/oluwatomisinlalude/Restaurant-Review-App.git)
 
 1. Your computer should have python installed. To check, run python -V on your terminal
 2. It your python version is 2.X, run the following on a terminal to start the server python -m SimpleHTTPServer 8000
@@ -42,7 +42,7 @@ Most of the code in this project has been written to the ES6 JavaScript specific
 
 ## Demo
 
-[Click here](https://laludztee.github.io/Restaurant-Review-App/) to view the app live
+[Click here](https://oluwatomisinlalude.github.io/Restaurant-Review-App/) to view the app live
 
 ## Author
 
